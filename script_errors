@@ -1,5 +1,8 @@
 --error running server_log_search.sh, no contents in extract_ output file.
 
+I need the path put in the script:  /users/q3478bn/files/scripts
+the log file is called:  server.log
+
 usvgog1d1:/users/q3478bn~$ ./server_log_search.sh
 What is the start date-time:2018-02-07 11:59:17
 What is the end date-time:2018-02-07 12:00:20
