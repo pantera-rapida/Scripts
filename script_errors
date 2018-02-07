@@ -1,0 +1,10 @@
+--error running server_log_search.sh, no contents in extract_ output file.
+
+usvgog1d1:/users/q3478bn~$ ./server_log_search.sh
+What is the start date-time:2018-02-07 11:59:17
+What is the end date-time:2018-02-07 12:00:20
+Searching log file [] for lines between start date-time [2018-02-07 11:59:17] and end date-time [2018-02-07 12:00:20]
+Can't open
+Your results are now in file [extract_]
+usvgog1d1:/users/q3478bn~$ cat extract_
+usvgog1d1:/users/q3478bn~$
