@@ -1,0 +1,256 @@
+Searching log file [server.log] for lines between start point [entityId: https://sso.test.workangel.com/saml (SP)] and end point [entityId: https://sso.test.workangel.com/saml (SP)]
+entityId: https://sso.test.workangel.com/saml (SP)
+virtualServerId: RBCSSO2.0
+Binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST
+relayState: http://sso.workangel.com/callback/
+Endpoint: https://sso.test.workangel.com/saml/login_check
+SignaturePolicy: BINDING_DEFAULT
+
+2018-02-07 12:00:20,822  DEBUG [org.sourceid.servlet.HttpServletRespProxy] [qtp2106609649-63] adding lazy cookie Cookie{PF=hashedValue:FTcVKDL7hBVcmVX77CKyK22dPCE; path=/; maxAge=-1; domain=null} replacing null
+2018-02-07 12:00:20,823 tid:FTcVKDL7hBVcmVX77CKyK22dPCE DEBUG [org.sourceid.saml20.service.impl.grouprpc.ArtifactPersistenceSvcGroupRpcEncodedNodeIdxImpl] [qtp2106609649-63] saved artifact oXbs59vVs8iSnbnAfhcSnCg3onk9pXPKXSBrpQAB
+2018-02-07 12:00:20,823 tid:FTcVKDL7hBVcmVX77CKyK22dPCE DEBUG [org.sourceid.servlet.HttpServletRespProxy] [qtp2106609649-63] flush cookies: adding Cookie{PF=hashedValue:FTcVKDL7hBVcmVX77CKyK22dPCE; path=/; maxAge=-1; domain=null}
+2018-02-07 12:00:20,829  DEBUG [org.sourceid.servlet.HttpServletRespProxy] [qtp2106609649-324] adding lazy cookie Cookie{PF=hashedValue:rfWCwclKiiVfaZWE6dliC-V90K4; path=/; maxAge=-1; domain=null} replacing null
+2018-02-07 12:00:20,829 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.websso.servlet.IntegrationControllerServlet] [qtp2106609649-324] GET: https://sso.saifg.rbc.com:9443/idp/startSSO.ping
+2018-02-07 12:00:20,830 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.saml20.profiles.idp.AuthnSourceSupportBase] [qtp2106609649-324] Authn Policy Tree resulted in no authentication selection, performing legacy authentication selection.
+2018-02-07 12:00:20,830 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.saml20.profiles.idp.AuthnSourceSupportBase] [qtp2106609649-324] Authentication Policies disabled/evaluated, performing legacy authentication selection.
+2018-02-07 12:00:20,830 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.saml20.service.impl.grouprpc.ArtifactPersistenceSvcGroupRpcEncodedNodeIdxImpl] [qtp2106609649-324] retrieve oXbs59vVs8iSnbnAfhcSnCg3onk9pXPKXSBrpQAB returning stored msg
+2018-02-07 12:00:20,830 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.saml20.service.impl.grouprpc.ArtifactPersistenceSvcGroupRpcEncodedNodeIdxImpl] [qtp2106609649-324] retrieveAndRemoveArtifact oXbs59vVs8iSnbnAfhcSnCg3onk9pXPKXSBrpQAB local check found msg
+2018-02-07 12:00:20,830 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.util.log.AttributeMap] [qtp2106609649-324] Ignoring attempt to add null value to attribute map for org.sourceid.saml20.adapter.idp.authn.authnCtx
+2018-02-07 12:00:20,830 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.util.log.internal.TrackingIdSupport] [qtp2106609649-324] [cross-reference-message] entityid:https://sso.test.workangel.com/saml subject:null
+2018-02-07 12:00:20,831 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.util.log.AttributeMap] [qtp2106609649-324] Ignoring attempt to add null value to attribute map for jobtitle
+2018-02-07 12:00:20,831 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.util.log.AttributeMap] [qtp2106609649-324] Ignoring attempt to add null value to attribute map for usergroup
+2018-02-07 12:00:20,831 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.saml20.domain.AttributeMapping] [qtp2106609649-324] Source attributes:{null={firstname=TANIA, Language=E, SubjectName=noemail@rbc.com, subject=noemail@rbc.com, emailaddress=noemail@rbc.com, lastname=FEHR}, context={context.ClientIp=10.241.198.5, context.HttpRequest=/idp/startSSO.ping}} Resulting attributes:{firstname=TANIA, subject=noemail@rbc.com, emailaddress=noemail@rbc.com, lastname=FEHR}
+2018-02-07 12:00:20,831 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.util.log.AttributeMap] [qtp2106609649-324] Ignoring attempt to add null value to attribute map for jobtitle
+2018-02-07 12:00:20,831 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.util.log.AttributeMap] [qtp2106609649-324] Ignoring attempt to add null value to attribute map for usergroup
+2018-02-07 12:00:20,831 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.saml20.domain.AttributeMapping] [qtp2106609649-324] Source attributes:{null={firstname=TANIA, TargetResource=http://sso.workangel.com/callback/, Language=E, SubjectName=noemail@rbc.com, subject=noemail@rbc.com, emailaddress=noemail@rbc.com, lastname=FEHR}, context={context.AuthenticationCtx=urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified, context.ClientIp=10.241.198.5, context.VirtualServerId=RBCSSO2.0, context.TargetResource=http://sso.workangel.com/callback/, context.HttpRequest=/idp/startSSO.ping}} Resulting attributes:{firstname=TANIA, emailaddress=noemail@rbc.com, SAML_SUBJECT=noemail@rbc.com, lastname=FEHR}
+2018-02-07 12:00:20,831 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.util.log.internal.TrackingIdSupport] [qtp2106609649-324] [cross-reference-message] PFSessionXRefID:sUUMiD-Jpac20.0pR1OtywZbjV8
+2018-02-07 12:00:20,832 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.util.log.internal.TrackingIdSupport] [qtp2106609649-324] [cross-reference-message] entityid:https://sso.test.workangel.com/saml subject:noemail@rbc.com
+2018-02-07 12:00:20,853 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.servlet.HttpServletRespProxy] [qtp2106609649-324] flush cookies: adding Cookie{PF=hashedValue:rfWCwclKiiVfaZWE6dliC-V90K4; path=/; maxAge=-1; domain=null}
+2018-02-07 12:00:20,855 tid:rfWCwclKiiVfaZWE6dliC-V90K4 DEBUG [org.sourceid.saml20.bindings.LoggingInterceptor] [qtp2106609649-324] Transported Response. OutMessageContext:
+OutMessageContext
+XML: <samlp:Response Version="2.0" ID="TrB1MlKp6.hiQeKIoR_mBB2OdEf" IssueInstant="2018-02-07T17:00:20.830Z" Destination="https://sso.test.workangel.com/saml/login_check" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol">
+  <saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">RBCSSO2.0</saml:Issuer>
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <ds:Reference URI="#TrB1MlKp6.hiQeKIoR_mBB2OdEf">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>fgOIMRdEk68dvmapPu205bM53LrSHd4HW9CzzUO+q04=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>VwuD/eDMGMn7h9j1+k7LoVoATQVz6SGMw9mNcXOZe55dcXLCxNzpOC6J+yhRDBuSiad5h8MLimNq
+C2ChRgFaHmLDFaCBsLDMIYNri/2fSpfHh+29sQ1yMYNO2UvtbcvP3CCNiSfcFk+kicF2Xs/sdkeD
+We2UU+N8ogqD00yvoaWtH6V+XySIHBt1QXN9TXK8vLyWXHU4ftvzgjc2UepK6/G2dYB1SKOYuA/S
+8xMiPPuw3pXc1pquJe2OcuuGWqnZw/aRyyx8mscFVHwij+Y04ohPu8zSk7Nj+iJJ4U48L8dgVi23
+nyv0YIC2DC4A70nCSEnftsgTlaFXwW/0NlyjlA==</ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate>MIIFFDCCA/ygAwIBAgIQE4iElBkW1b2amCjed774mTANBgkqhkiG9w0BAQsFADB+MQswCQYDVQQG
+EwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRy
+dXN0IE5ldHdvcmsxLzAtBgNVBAMTJlN5bWFudGVjIENsYXNzIDMgU2VjdXJlIFNlcnZlciBDQSAt
+IEc0MB4XDTE1MDMwMzAwMDAwMFoXDTE4MDMwMzIzNTk1OVowgZAxCzAJBgNVBAYTAkNBMRAwDgYD
+VQQIDAdPbnRhcmlvMRAwDgYDVQQHDAdUb3JvbnRvMR0wGwYDVQQKDBRSb3lhbCBCYW5rIG9mIENh
+bmFkYTETMBEGA1UECwwKSW5mb1NlY19RQTEpMCcGA1UEAwwgRGlnaXRhbFNpZ25pbmdmb3JTQU1M
+LlNURVJCQy5DT00wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCmFiA3v8tA7ydH+q5+
+DWDeX6+v6OEP7VcXdDOP5D4IsVEEaTj2Y6Bq59P6nzHQjmSNnSBVwQw4ug7Ut2FfeXGoLBGkMQ5P
+9qhHKZTJnrBUZjgxNQjX9UUpQuzjY/1UriPjtcRkM1Delj0s3isXLsTVkKSxTzigvPxyqf2OwAc6
+hQsitZJW80RYDhWAVmVaV5OLn5Maq6hjJyMlDXE4ClOYVWGHyRQSx/7mfZ2q0PiDK3MS3xxlKx06
+9KyLJfRNWdltbSMLb3+FHJ6FP23cdUo3IezZW9l3+aZ5wsNFZ46cQvdIJUGjDa9WTAcxrYGwgGve
+9UvYSpujAT+FXDAK2dmLAgMBAAGjggF5MIIBdTArBgNVHREEJDAigiBEaWdpdGFsU2lnbmluZ2Zv
+clNBTUwuU1RFUkJDLkNPTTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggr
+BgEFBQcDAQYIKwYBBQUHAwIwZQYDVR0gBF4wXDBaBgpghkgBhvhFAQc2MEwwIwYIKwYBBQUHAgEW
+F2h0dHBzOi8vZC5zeW1jYi5jb20vY3BzMCUGCCsGAQUFBwICMBkaF2h0dHBzOi8vZC5zeW1jYi5j
+b20vcnBhMB8GA1UdIwQYMBaAFF9gz2GQVd+EQxSKYCqy9Xr0QxjvMCsGA1UdHwQkMCIwIKAeoByG
+Gmh0dHA6Ly9zcy5zeW1jYi5jb20vc3MuY3JsMFcGCCsGAQUFBwEBBEswSTAfBggrBgEFBQcwAYYT
+aHR0cDovL3NzLnN5bWNkLmNvbTAmBggrBgEFBQcwAoYaaHR0cDovL3NzLnN5bWNiLmNvbS9zcy5j
+cnQwDQYJKoZIhvcNAQELBQADggEBAJTkWnCt1zyoN2I8mchcV9Bktt6S1iBzK1IKj9hZFARnqI1t
+D6K7+hyCmY5lqz38P9N/57mjbfLjqJK0q1GSfTvBy+QAnFJLk/eYt0iBN32dPDX5orATdLygjqne
+iy15Y7b6iWxVoj5z8BI+J2xNOpXKuVltrIsuA69pBkNMtHXB4dVAxpKbeMwXEnsXAI0iJbDjV17g
+EWcGVhvVYgscoeZJ/5d5pMUy/iBwxm55Gk4LR3jLN2HqpWjDnJkuiRkRwSyiCqL2NezJt5/1jMxl
+tsOGc7XezJDvjpem/bPJohDrWgMlSps9XOw45Wx/MqUV3nYqUjgsnwHx9tziUqFwmAI=</ds:X509Certificate>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature>
+  <samlp:Status>
+    <samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+  </samlp:Status>
+  <saml:Assertion ID="sUUMiD-Jpac20.0pR1OtywZbjV8" IssueInstant="2018-02-07T17:00:20.831Z" Version="2.0" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
+    <saml:Issuer>RBCSSO2.0</saml:Issuer>
+    <saml:Subject>
+      <saml:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">noemail@rbc.com</saml:NameID>
+      <saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+        <saml:SubjectConfirmationData Recipient="https://sso.test.workangel.com/saml/login_check" NotOnOrAfter="2018-02-07T17:05:20.831Z"/>
+      </saml:SubjectConfirmation>
+    </saml:Subject>
+    <saml:Conditions NotBefore="2018-02-07T16:55:20.831Z" NotOnOrAfter="2018-02-07T17:05:20.831Z">
+      <saml:AudienceRestriction>
+        <saml:Audience>https://sso.test.workangel.com/saml</saml:Audience>
+      </saml:AudienceRestriction>
+    </saml:Conditions>
+    <saml:AuthnStatement SessionIndex="sUUMiD-Jpac20.0pR1OtywZbjV8" AuthnInstant="2018-02-07T17:00:20.830Z">
+      <saml:AuthnContext>
+        <saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified</saml:AuthnContextClassRef>
+      </saml:AuthnContext>
+    </saml:AuthnStatement>
+    <saml:AttributeStatement>
+      <saml:Attribute Name="firstname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+        <saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">TANIA</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="emailaddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+        <saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">noemail@rbc.com</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="lastname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+        <saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">FEHR</saml:AttributeValue>
+      </saml:Attribute>
+    </saml:AttributeStatement>
+  </saml:Assertion>
+</samlp:Response>
+entityId: https://sso.test.workangel.com/saml (SP)
+entityId: https://sso.test.workangel.com/saml (SP)
+virtualServerId: RBCSSO2.0
+Binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST
+relayState: http://sso.workangel.com/callback/
+Endpoint: https://sso.test.workangel.com/saml/login_check
+SignaturePolicy: BINDING_DEFAULT
+
+2018-02-07 12:01:39,126  DEBUG [org.sourceid.servlet.HttpServletRespProxy] [qtp2106609649-383] adding lazy cookie Cookie{PF=hashedValue:Q_ieCewJFRdd6f9gj_iscpIGTx8; path=/; maxAge=-1; domain=null} replacing null
+2018-02-07 12:01:39,126 tid:Q_ieCewJFRdd6f9gj_iscpIGTx8 DEBUG [org.sourceid.websso.servlet.IntegrationControllerServlet] [qtp2106609649-383] GET: https://10.241.198.177:9443/idp/startSSO.ping
+2018-02-07 12:01:39,127 tid:Q_ieCewJFRdd6f9gj_iscpIGTx8 DEBUG [org.sourceid.saml20.profiles.idp.AuthnSourceSupportBase] [qtp2106609649-383] Authn Policy Tree resulted in no authentication selection, performing legacy authentication selection.
+2018-02-07 12:01:39,127 tid:Q_ieCewJFRdd6f9gj_iscpIGTx8 DEBUG [org.sourceid.saml20.profiles.idp.AuthnSourceSupportBase] [qtp2106609649-383] Authentication Policies disabled/evaluated, performing legacy authentication selection.
+2018-02-07 12:01:39,128 tid:Q_ieCewJFRdd6f9gj_iscpIGTx8 DEBUG [org.sourceid.saml20.service.impl.grouprpc.PreferredNodes] [qtp2106609649-383] [] -> indices to addresses -> [10.241.159.128:6700, 10.241.159.127:6700]
+2018-02-07 12:01:39,130 tid:Q_ieCewJFRdd6f9gj_iscpIGTx8 DEBUG [org.sourceid.saml20.service.impl.grouprpc.AssertionReplayPreventionServiceGroupRpcImpl] [qtp2106609649-383] called mode:GET_MAJORITY isReplay() on [10.241.159.128:6700, 10.241.159.127:6700]
+2018-02-07 12:01:39,130 tid:Q_ieCewJFRdd6f9gj_iscpIGTx8 DEBUG [org.sourceid.saml20.service.impl.grouprpc.PreferredNodes] [qtp2106609649-383] [] -> indices to addresses -> [10.241.159.128:6700, 10.241.159.127:6700]
+2018-02-07 12:01:39,130  DEBUG [org.sourceid.saml20.service.impl.localmemory.InterReqStateMgmtMapImpl] [Incoming-6,pf,10.241.159.127:6700] Object removeAttr(key: null, name: NUMBER_OF_ATTEMPTS)
+2018-02-07 12:01:39,131 tid:Q_ieCewJFRdd6f9gj_iscpIGTx8 DEBUG [org.sourceid.saml20.service.impl.grouprpc.InterRequestStateMgmtGroupRpcImpl] [qtp2106609649-383] called mode:GET_MAJORITY removeAttr() on [10.241.159.128:6700, 10.241.159.127:6700]
+2018-02-07 12:01:39,131 tid:Q_ieCewJFRdd6f9gj_iscpIGTx8 DEBUG [org.sourceid.util.log.internal.TrackingIdSupport] [qtp2106609649-383] [cross-reference-message] entityid:null subject:null
+2018-02-07 12:01:39,132 tid:Q_ieCewJFRdd6f9gj_iscpIGTx8 DEBUG [org.sourceid.saml20.domain.AttributeMapping] [qtp2106609649-383] Source attributes:{null={not-on-or-after=2018-02-07T17:03:34Z, subject=6200006901, YodleeAttributes=3B7AgVyYVUZzkUIHbkQrxE7VTB+cFQrQwL2UeQn9vfmmYCqPuTNEj18+oF0lEDMaMe1nZo772OJeCFIJTpn5iv3ckmAvDZRFhYJEXp19T1fNR2PiZLhrZoF7ze8oFTan/JSWYHjcDAFV96OzW+gDvFXUaRALWY7aOeIibtWcF2M8wyp+sjvHnv8jgoi0BTJDMx7BefNfOuSJMY5ZwjPwQjLZ15WfefSHGnSFy+9SHCRRrX1xgQYWcWd8acdU3dw8eusbhEa9mP92aMZxb15OZArL8H2IvPOtb2jCrj8CAc5SwhcDCpZ52/sX7JU2UrrdVUqmx6rkb2+FEUZn9A/YcA==:4G+UldlP0U0RhjYwquQil6UuQXOqHyzIjJ0QsjRvEYQNNWFR6dbxMSzBso7mz+1wuX14IcPnYk4NoU8pERC2O1UlBA+gAP7F2RgwaY9IVaFuc8wtMSUWk0jdwO9ikLrKRYXaqkbqrybhPbitUOXcOkBA0nBtzA3vKesLvXQvl/0wONrywTmfsKCo5+I/SQrZH2vSa+N7iQpAx6u1kMUkrrD4r5Jv59/1s58G5mKE7EDDKCM9UfId5PiIWstsB+uBPR9+0NKk41QsnlYnzoraOPdjDVb6cE8SN/B0o5d4+538rzTS1Q7RNTgOIOLRLkQ8mEWlTyTfGWGFtXypa3TbkUlXkKYZtkEsC8Nish5ZAp1MkCb2nFk8msQIn2iYSDI+HHmWInkcgxFJbuy9aCHiIqIpngpWXTq3XKzI6r4cFPu6WA/m4+OWjeDtxaPkRbKA3Thw/kSZ0+XHq5EVPZxmCtk5lHFdtKv434dRb60lrlHZOZRxXbSr+N+HUW+tJa5R2TmUcV20q/jfh1FvrSWuUaRjJYuSL7JX98DSUDMkYOM=, not-before=2018-02-07T17:01:34Z, renew-until=2018-02-08T05:01:34Z, userId=6200006901}, context={context.ClientIp=10.241.198.5, context.HttpRequest=/idp/startSSO.ping}} Resulting attributes:{subject=6200006901, YodleeAttributes=3B7AgVyYVUZzkUIHbkQrxE7VTB+cFQrQwL2UeQn9vfmmYCqPuTNEj18+oF0lEDMaMe1nZo772OJeCFIJTpn5iv3ckmAvDZRFhYJEXp19T1fNR2PiZLhrZoF7ze8oFTan/JSWYHjcDAFV96OzW+gDvFXUaRALWY7aOeIibtWcF2M8wyp+sjvHnv8jgoi0BTJDMx7BefNfOuSJMY5ZwjPwQjLZ15WfefSHGnSFy+9SHCRRrX1xgQYWcWd8acdU3dw8eusbhEa9mP92aMZxb15OZArL8H2IvPOtb2jCrj8CAc5SwhcDCpZ52/sX7JU2UrrdVUqmx6rkb2+FEUZn9A/YcA==:4G+UldlP0U0RhjYwquQil6UuQXOqHyzIjJ0QsjRvEYQNNWFR6dbxMSzBso7mz+1wuX14IcPnYk4NoU8pERC2O1UlBA+gAP7F2RgwaY9IVaFuc8wtMSUWk0jdwO9ikLrKRYXaqkbqrybhPbitUOXcOkBA0nBtzA3vKesLvXQvl/0wONrywTmfsKCo5+I/SQrZH2vSa+N7iQpAx6u1kMUkrrD4r5Jv59/1s58G5mKE7EDDKCM9UfId5PiIWstsB+uBPR9+0NKk41QsnlYnzoraOPdjDVb6cE8SN/B0o5d4+538rzTS1Q7RNTgOIOLRLkQ8mEWlTyTfGWGFtXypa3TbkUlXkKYZtkEsC8Nish5ZAp1MkCb2nFk8msQIn2iYSDI+HHmWInkcgxFJbuy9aCHiIqIpngpWXTq3XKzI6r4cFPu6WA/m4+OWjeDtxaPkRbKA3Thw/kSZ0+XHq5EVPZxmCtk5lHFdtKv434dRb60lrlHZOZRxXbSr+N+HUW+tJa5R2TmUcV20q/jfh1FvrSWuUaRjJYuSL7JX98DSUDMkYOM=}
+2018-02-07 12:01:39,132 tid:Q_ieCewJFRdd6f9gj_iscpIGTx8 DEBUG [org.sourceid.saml20.domain.AttributeMapping] [qtp2106609649-383] Source attributes:{null={not-on-or-after=2018-02-07T17:03:34Z, TargetResource=https://myfinancetracker.steroyalbank.com/apps/chart.rbc.do?chartId=6&isIframePage=yes, subject=6200006901, YodleeAttributes=3B7AgVyYVUZzkUIHbkQrxE7VTB+cFQrQwL2UeQn9vfmmYCqPuTNEj18+oF0lEDMaMe1nZo772OJeCFIJTpn5iv3ckmAvDZRFhYJEXp19T1fNR2PiZLhrZoF7ze8oFTan/JSWYHjcDAFV96OzW+gDvFXUaRALWY7aOeIibtWcF2M8wyp+sjvHnv8jgoi0BTJDMx7BefNfOuSJMY5ZwjPwQjLZ15WfefSHGnSFy+9SHCRRrX1xgQYWcWd8acdU3dw8eusbhEa9mP92aMZxb15OZArL8H2IvPOtb2jCrj8CAc5SwhcDCpZ52/sX7JU2UrrdVUqmx6rkb2+FEUZn9A/YcA==:4G+UldlP0U0RhjYwquQil6UuQXOqHyzIjJ0QsjRvEYQNNWFR6dbxMSzBso7mz+1wuX14IcPnYk4NoU8pERC2O1UlBA+gAP7F2RgwaY9IVaFuc8wtMSUWk0jdwO9ikLrKRYXaqkbqrybhPbitUOXcOkBA0nBtzA3vKesLvXQvl/0wONrywTmfsKCo5+I/SQrZH2vSa+N7iQpAx6u1kMUkrrD4r5Jv59/1s58G5mKE7EDDKCM9UfId5PiIWstsB+uBPR9+0NKk41QsnlYnzoraOPdjDVb6cE8SN/B0o5d4+538rzTS1Q7RNTgOIOLRLkQ8mEWlTyTfGWGFtXypa3TbkUlXkKYZtkEsC8Nish5ZAp1MkCb2nFk8msQIn2iYSDI+HHmWInkcgxFJbuy9aCHiIqIpngpWXTq3XKzI6r4cFPu6WA/m4+OWjeDtxaPkRbKA3Thw/kSZ0+XHq5EVPZxmCtk5lHFdtKv434dRb60lrlHZOZRxXbSr+N+HUW+tJa5R2TmUcV20q/jfh1FvrSWuUaRjJYuSL7JX98DSUDMkYOM=, not-before=2018-02-07T17:01:34Z, renew-until=2018-02-08T05:01:34Z, userId=6200006901}, context={context.AuthenticationCtx=urn:oasis:names:tc:SAML:1.0:am:unspecified, context.ClientIp=10.241.198.5, context.VirtualServerId=RBCSSO, context.TargetResource=https://myfinancetracker.steroyalbank.com/apps/chart.rbc.do?chartId=6&isIframePage=yes, context.HttpRequest=/idp/startSSO.ping}} Resulting attributes:{YodleeAttributes=3B7AgVyYVUZzkUIHbkQrxE7VTB+cFQrQwL2UeQn9vfmmYCqPuTNEj18+oF0lEDMaMe1nZo772OJeCFIJTpn5iv3ckmAvDZRFhYJEXp19T1fNR2PiZLhrZoF7ze8oFTan/JSWYHjcDAFV96OzW+gDvFXUaRALWY7aOeIibtWcF2M8wyp+sjvHnv8jgoi0BTJDMx7BefNfOuSJMY5ZwjPwQjLZ15WfefSHGnSFy+9SHCRRrX1xgQYWcWd8acdU3dw8eusbhEa9mP92aMZxb15OZArL8H2IvPOtb2jCrj8CAc5SwhcDCpZ52/sX7JU2UrrdVUqmx6rkb2+FEUZn9A/YcA==:4G+UldlP0U0RhjYwquQil6UuQXOqHyzIjJ0QsjRvEYQNNWFR6dbxMSzBso7mz+1wuX14IcPnYk4NoU8pERC2O1UlBA+gAP7F2RgwaY9IVaFuc8wtMSUWk0jdwO9ikLrKRYXaqkbqrybhPbitUOXcOkBA0nBtzA3vKesLvXQvl/0wONrywTmfsKCo5+I/SQrZH2vSa+N7iQpAx6u1kMUkrrD4r5Jv59/1s58G5mKE7EDDKCM9UfId5PiIWstsB+uBPR9+0NKk41QsnlYnzoraOPdjDVb6cE8SN/B0o5d4+538rzTS1Q7RNTgOIOLRLkQ8mEWlTyTfGWGFtXypa3TbkUlXkKYZtkEsC8Nish5ZAp1MkCb2nFk8msQIn2iYSDI+HHmWInkcgxFJbuy9aCHiIqIpngpWXTq3XKzI6r4cFPu6WA/m4+OWjeDtxaPkRbKA3Thw/kSZ0+XHq5EVPZxmCtk5lHFdtKv434dRb60lrlHZOZRxXbSr+N+HUW+tJa5R2TmUcV20q/jfh1FvrSWuUaRjJYuSL7JX98DSUDMkYOM=, SAML_SUBJECT=6200006901}
+2018-02-07 12:01:39,132 tid:Q_ieCewJFRdd6f9gj_iscpIGTx8 DEBUG [org.sourceid.util.log.internal.TrackingIdSupport] [qtp2106609649-383] [cross-reference-message] PFSessionXRefID:j-wTF91QHzL1qQyeCto05WPaxv2
+2018-02-07 12:01:39,155 tid:Q_ieCewJFRdd6f9gj_iscpIGTx8 DEBUG [org.sourceid.util.log.internal.TrackingIdSupport] [qtp2106609649-383] [cross-reference-message] entityid:YodleeOPC subject:6200006901
+2018-02-07 12:01:39,178 tid:Q_ieCewJFRdd6f9gj_iscpIGTx8 DEBUG [org.sourceid.servlet.HttpServletRespProxy] [qtp2106609649-383] flush cookies: adding Cookie{PF=hashedValue:Q_ieCewJFRdd6f9gj_iscpIGTx8; path=/; maxAge=-1; domain=null}
+2018-02-07 12:01:39,181 tid:Q_ieCewJFRdd6f9gj_iscpIGTx8 DEBUG [org.sourceid.saml20.bindings.LoggingInterceptor] [qtp2106609649-383] Transported Response. OutMessageContext:
+Saml1xRespOutMessageContext
+XML: <samlp:Response ResponseID="onIRC79mAF1zpbBzydK7zHrUPx9" MajorVersion="1" MinorVersion="1" IssueInstant="2018-02-07T17:01:39.154Z" Recipient="https://myfinancetracker.steroyalbank.com/apps/home.rbc.do" xmlns:samlp="urn:oasis:names:tc:SAML:1.0:protocol">
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <ds:Reference URI="#onIRC79mAF1zpbBzydK7zHrUPx9">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>bVU9RNWlBClt1tTgTaiJAoVhl+RQVfgk9/SJfTVbl/M=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>me1TYgKo4lpNYqyIALCITflQUzDFYHboAfrkNEUcg5A8Wu/Gae864I6pYWubM0u31f296idJVzbI
+zDTkekvn8Ksvd5HlwTjY1Vc1mGxRAgiOjsPNTSkFHfcXf2CCV4Mxp9VvlbmInrmkZ01ggqRLGTLL
+t5CYCh/Jj9adY7tBUg4FZ3WZraKU5r5Cn0k9aKolzvQdPnc2/4shTJeYUnyKkin0UGjb/QCdZUm0
+mrD82NLxhypzEuqTxRycPM8Sn/ql5MkQ0T0j7K3WKKlSmvRPq4U0AJrrVJ1rYos/OXfmYUuoJ5Nd
+FFTRP3q9hAsEi2Ih3nTZE18RE9YM1PJP+U1xtA==</ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate>MIIFFDCCA/ygAwIBAgIQE4iElBkW1b2amCjed774mTANBgkqhkiG9w0BAQsFADB+MQswCQYDVQQG
+EwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRy
+dXN0IE5ldHdvcmsxLzAtBgNVBAMTJlN5bWFudGVjIENsYXNzIDMgU2VjdXJlIFNlcnZlciBDQSAt
+IEc0MB4XDTE1MDMwMzAwMDAwMFoXDTE4MDMwMzIzNTk1OVowgZAxCzAJBgNVBAYTAkNBMRAwDgYD
+VQQIDAdPbnRhcmlvMRAwDgYDVQQHDAdUb3JvbnRvMR0wGwYDVQQKDBRSb3lhbCBCYW5rIG9mIENh
+bmFkYTETMBEGA1UECwwKSW5mb1NlY19RQTEpMCcGA1UEAwwgRGlnaXRhbFNpZ25pbmdmb3JTQU1M
+LlNURVJCQy5DT00wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCmFiA3v8tA7ydH+q5+
+DWDeX6+v6OEP7VcXdDOP5D4IsVEEaTj2Y6Bq59P6nzHQjmSNnSBVwQw4ug7Ut2FfeXGoLBGkMQ5P
+9qhHKZTJnrBUZjgxNQjX9UUpQuzjY/1UriPjtcRkM1Delj0s3isXLsTVkKSxTzigvPxyqf2OwAc6
+hQsitZJW80RYDhWAVmVaV5OLn5Maq6hjJyMlDXE4ClOYVWGHyRQSx/7mfZ2q0PiDK3MS3xxlKx06
+9KyLJfRNWdltbSMLb3+FHJ6FP23cdUo3IezZW9l3+aZ5wsNFZ46cQvdIJUGjDa9WTAcxrYGwgGve
+9UvYSpujAT+FXDAK2dmLAgMBAAGjggF5MIIBdTArBgNVHREEJDAigiBEaWdpdGFsU2lnbmluZ2Zv
+clNBTUwuU1RFUkJDLkNPTTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggr
+BgEFBQcDAQYIKwYBBQUHAwIwZQYDVR0gBF4wXDBaBgpghkgBhvhFAQc2MEwwIwYIKwYBBQUHAgEW
+F2h0dHBzOi8vZC5zeW1jYi5jb20vY3BzMCUGCCsGAQUFBwICMBkaF2h0dHBzOi8vZC5zeW1jYi5j
+b20vcnBhMB8GA1UdIwQYMBaAFF9gz2GQVd+EQxSKYCqy9Xr0QxjvMCsGA1UdHwQkMCIwIKAeoByG
+Gmh0dHA6Ly9zcy5zeW1jYi5jb20vc3MuY3JsMFcGCCsGAQUFBwEBBEswSTAfBggrBgEFBQcwAYYT
+aHR0cDovL3NzLnN5bWNkLmNvbTAmBggrBgEFBQcwAoYaaHR0cDovL3NzLnN5bWNiLmNvbS9zcy5j
+cnQwDQYJKoZIhvcNAQELBQADggEBAJTkWnCt1zyoN2I8mchcV9Bktt6S1iBzK1IKj9hZFARnqI1t
+D6K7+hyCmY5lqz38P9N/57mjbfLjqJK0q1GSfTvBy+QAnFJLk/eYt0iBN32dPDX5orATdLygjqne
+iy15Y7b6iWxVoj5z8BI+J2xNOpXKuVltrIsuA69pBkNMtHXB4dVAxpKbeMwXEnsXAI0iJbDjV17g
+EWcGVhvVYgscoeZJ/5d5pMUy/iBwxm55Gk4LR3jLN2HqpWjDnJkuiRkRwSyiCqL2NezJt5/1jMxl
+tsOGc7XezJDvjpem/bPJohDrWgMlSps9XOw45Wx/MqUV3nYqUjgsnwHx9tziUqFwmAI=</ds:X509Certificate>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature>
+  <samlp:Status>
+    <samlp:StatusCode Value="samlp:Success"/>
+  </samlp:Status>
+  <saml:Assertion MajorVersion="1" MinorVersion="1" AssertionID="j-wTF91QHzL1qQyeCto05WPaxv2" IssueInstant="2018-02-07T17:01:39.132Z" Issuer="RBCSSO" xmlns:saml="urn:oasis:names:tc:SAML:1.0:assertion">
+    <saml:Conditions NotBefore="2018-02-07T16:56:39.132Z" NotOnOrAfter="2018-02-07T17:06:39.132Z"/>
+    <saml:AuthenticationStatement AuthenticationInstant="2018-02-07T17:01:39.132Z" AuthenticationMethod="urn:oasis:names:tc:SAML:1.0:am:unspecified">
+      <saml:Subject>
+        <saml:NameIdentifier Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">6200006901</saml:NameIdentifier>
+        <saml:SubjectConfirmation>
+          <saml:ConfirmationMethod>urn:oasis:names:tc:SAML:1.0:cm:bearer</saml:ConfirmationMethod>
+        </saml:SubjectConfirmation>
+      </saml:Subject>
+    </saml:AuthenticationStatement>
+    <saml:AttributeStatement>
+      <saml:Subject>
+        <saml:NameIdentifier Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">6200006901</saml:NameIdentifier>
+        <saml:SubjectConfirmation>
+          <saml:ConfirmationMethod>urn:oasis:names:tc:SAML:1.0:cm:bearer</saml:ConfirmationMethod>
+        </saml:SubjectConfirmation>
+      </saml:Subject>
+      <saml:Attribute AttributeName="YodleeAttributes" AttributeNamespace="ns:unspecified">
+        <saml:AttributeValue>3B7AgVyYVUZzkUIHbkQrxE7VTB+cFQrQwL2UeQn9vfmmYCqPuTNEj18+oF0lEDMaMe1nZo772OJeCFIJTpn5iv3ckmAvDZRFhYJEXp19T1fNR2PiZLhrZoF7ze8oFTan/JSWYHjcDAFV96OzW+gDvFXUaRALWY7aOeIibtWcF2M8wyp+sjvHnv8jgoi0BTJDMx7BefNfOuSJMY5ZwjPwQjLZ15WfefSHGnSFy+9SHCRRrX1xgQYWcWd8acdU3dw8eusbhEa9mP92aMZxb15OZArL8H2IvPOtb2jCrj8CAc5SwhcDCpZ52/sX7JU2UrrdVUqmx6rkb2+FEUZn9A/YcA==:4G+UldlP0U0RhjYwquQil6UuQXOqHyzIjJ0QsjRvEYQNNWFR6dbxMSzBso7mz+1wuX14IcPnYk4NoU8pERC2O1UlBA+gAP7F2RgwaY9IVaFuc8wtMSUWk0jdwO9ikLrKRYXaqkbqrybhPbitUOXcOkBA0nBtzA3vKesLvXQvl/0wONrywTmfsKCo5+I/SQrZH2vSa+N7iQpAx6u1kMUkrrD4r5Jv59/1s58G5mKE7EDDKCM9UfId5PiIWstsB+uBPR9+0NKk41QsnlYnzoraOPdjDVb6cE8SN/B0o5d4+538rzTS1Q7RNTgOIOLRLkQ8mEWlTyTfGWGFtXypa3TbkUlXkKYZtkEsC8Nish5ZAp1MkCb2nFk8msQIn2iYSDI+HHmWInkcgxFJbuy9aCHiIqIpngpWXTq3XKzI6r4cFPu6WA/m4+OWjeDtxaPkRbKA3Thw/kSZ0+XHq5EVPZxmCtk5lHFdtKv434dRb60lrlHZOZRxXbSr+N+HUW+tJa5R2TmUcV20q/jfh1FvrSWuUaRjJYuSL7JX98DSUDMkYOM=</saml:AttributeValue>
+      </saml:Attribute>
+    </saml:AttributeStatement>
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+      <ds:SignedInfo>
+        <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+        <ds:Reference URI="#j-wTF91QHzL1qQyeCto05WPaxv2">
+          <ds:Transforms>
+            <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+          </ds:Transforms>
+          <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+          <ds:DigestValue>CltIYipTAJsf/FJoR2gfJxtATjZFOefden9brfoWfmc=</ds:DigestValue>
+        </ds:Reference>
+      </ds:SignedInfo>
+      <ds:SignatureValue>Tw/OvAzRFvIYFfSjJvHNih/RUZcKG2S1zifM6ESgFrhQqR04JJCWVV3cJbVHXzpv3GNP8wgR4jlu
+gvKYP83xnJ2h2lxtXa4EfY1wmBIQuwvyWkwvMU7oobxrVyVq/k/03QwmMSjb7ymmx0jWRJW03sz1
+BC8fGfAayPD4pJIYw4UttHu/xZtHcW9e29nTNlJl5h6COcO16zcgSM2uBUc6mAX9yXBVybUXx5Ze
+625LjLcZatIMZ8F32FGfXax+OyFDieEYvWE7GdC787qGvCS1og2HeG5/+dzfZuHlkcpnIN4tZxxs
+MgG3abpGsjUMCYuDgJBnkbrj/LlID5OsAOOypQ==</ds:SignatureValue>
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFFDCCA/ygAwIBAgIQE4iElBkW1b2amCjed774mTANBgkqhkiG9w0BAQsFADB+MQswCQYDVQQG
+EwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRy
+dXN0IE5ldHdvcmsxLzAtBgNVBAMTJlN5bWFudGVjIENsYXNzIDMgU2VjdXJlIFNlcnZlciBDQSAt
+IEc0MB4XDTE1MDMwMzAwMDAwMFoXDTE4MDMwMzIzNTk1OVowgZAxCzAJBgNVBAYTAkNBMRAwDgYD
+VQQIDAdPbnRhcmlvMRAwDgYDVQQHDAdUb3JvbnRvMR0wGwYDVQQKDBRSb3lhbCBCYW5rIG9mIENh
+bmFkYTETMBEGA1UECwwKSW5mb1NlY19RQTEpMCcGA1UEAwwgRGlnaXRhbFNpZ25pbmdmb3JTQU1M
+LlNURVJCQy5DT00wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCmFiA3v8tA7ydH+q5+
+DWDeX6+v6OEP7VcXdDOP5D4IsVEEaTj2Y6Bq59P6nzHQjmSNnSBVwQw4ug7Ut2FfeXGoLBGkMQ5P
+9qhHKZTJnrBUZjgxNQjX9UUpQuzjY/1UriPjtcRkM1Delj0s3isXLsTVkKSxTzigvPxyqf2OwAc6
+hQsitZJW80RYDhWAVmVaV5OLn5Maq6hjJyMlDXE4ClOYVWGHyRQSx/7mfZ2q0PiDK3MS3xxlKx06
+9KyLJfRNWdltbSMLb3+FHJ6FP23cdUo3IezZW9l3+aZ5wsNFZ46cQvdIJUGjDa9WTAcxrYGwgGve
+9UvYSpujAT+FXDAK2dmLAgMBAAGjggF5MIIBdTArBgNVHREEJDAigiBEaWdpdGFsU2lnbmluZ2Zv
+clNBTUwuU1RFUkJDLkNPTTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggr
+BgEFBQcDAQYIKwYBBQUHAwIwZQYDVR0gBF4wXDBaBgpghkgBhvhFAQc2MEwwIwYIKwYBBQUHAgEW
+F2h0dHBzOi8vZC5zeW1jYi5jb20vY3BzMCUGCCsGAQUFBwICMBkaF2h0dHBzOi8vZC5zeW1jYi5j
+b20vcnBhMB8GA1UdIwQYMBaAFF9gz2GQVd+EQxSKYCqy9Xr0QxjvMCsGA1UdHwQkMCIwIKAeoByG
+Gmh0dHA6Ly9zcy5zeW1jYi5jb20vc3MuY3JsMFcGCCsGAQUFBwEBBEswSTAfBggrBgEFBQcwAYYT
+aHR0cDovL3NzLnN5bWNkLmNvbTAmBggrBgEFBQcwAoYaaHR0cDovL3NzLnN5bWNiLmNvbS9zcy5j
+cnQwDQYJKoZIhvcNAQELBQADggEBAJTkWnCt1zyoN2I8mchcV9Bktt6S1iBzK1IKj9hZFARnqI1t
+D6K7+hyCmY5lqz38P9N/57mjbfLjqJK0q1GSfTvBy+QAnFJLk/eYt0iBN32dPDX5orATdLygjqne
+iy15Y7b6iWxVoj5z8BI+J2xNOpXKuVltrIsuA69pBkNMtHXB4dVAxpKbeMwXEnsXAI0iJbDjV17g
+EWcGVhvVYgscoeZJ/5d5pMUy/iBwxm55Gk4LR3jLN2HqpWjDnJkuiRkRwSyiCqL2NezJt5/1jMxl
+tsOGc7XezJDvjpem/bPJohDrWgMlSps9XOw45Wx/MqUV3nYqUjgsnwHx9tziUqFwmAI=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </ds:Signature>
+  </saml:Assertion>
+</samlp:Response>
